@@ -5,5 +5,4 @@
 
 * after clone, run ```npm start``` (port 80) 
 
-![screenshot](screenshot.png) <!-- .element height="50%" width="50%" -->
-
+<img src="screensht.png" height="250"></img>
