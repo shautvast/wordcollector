@@ -1,0 +1,154 @@
+html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+
+body {
+    font-family: 'Quicksand', serif;
+    font-weight: 500;
+    font-style: normal;
+    background: #53a600;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    flex-flow: row-reverse wrap;
+}
+
+.canvas-container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.character-tile {
+    display: inline-block;
+    vertical-align: top;
+    transform: translate(0, -15%);
+}
+
+.medal {
+    height: 1em;
+    transform: translate(-12px, 2px);
+}
+
+.points {
+    position: absolute;
+    right: 5%;
+    top: 1%;
+    flex-flow: row-reverse wrap;
+    color: yellow;
+    background: black;
+    border: #dab107 2px solid;
+    border-radius: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: large;
+}
+
+#slots {
+    top: 35px;
+    width: 90%;
+    margin: 5px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    border: #f5f1bc solid 15px;
+    border-radius: 15px;
+    background: #f5f1bc;
+    position: absolute;
+    horiz-align: center;
+}
+
+.wordslot {
+    position: relative;
+    padding: 10px;
+    display: flex;
+}
+
+.hidden {
+    color: brown;
+}
+
+.revealed {
+    color: white;
+}
+
+.characterslot {
+    vertical-align: center;
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    background: brown;
+    border: black solid .5px;
+    border-radius: 3px;
+}
+
+.tile {
+    position: absolute;
+    background: url("../img/wood.jpg");
+    width: 18vw;
+    height: 10vh;
+    max-width: 75px;
+    text-align: center;
+    color: rgb(99, 28, 28);
+    border: solid beige 1px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(255, 255, 0, 0.2) inset;
+    font-size: 10vh;
+    font-weight: bold;
+}
+
+.guess {
+    padding-left: 5px;
+    padding-right: 5px;
+    visibility: hidden;
+    background: #f5f1bc;
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    display: inline-block;
+    height: 11vh;
+    text-align: center;
+    color: black;
+    border: solid beige 2px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(100,100,100, 0.1) inset;
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+.shown {
+    visibility: visible;
+}
+
+.selected {
+    border-width: 5px;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/quicksand.woff) format('woff');
+}
+
+.reload {
+    padding: 5px;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    border-radius: 10px;
+}
+
+.hint {
+    padding: 5px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    border-radius: 10px;
+}
