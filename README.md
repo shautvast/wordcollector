@@ -2,3 +2,5 @@
 * no demo yet
 * static html/javascript
 * pretty hard!
+
+* after clone, run ```npm start``` (port 80) 
