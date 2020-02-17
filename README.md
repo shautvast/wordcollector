@@ -5,5 +5,5 @@
 
 * after clone, run ```npm start``` (port 80) 
 
-![screenshot](screenshot.png=250x)
+![screenshot](screenshot.png =250x)
 
