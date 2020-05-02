@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "fabric": "^4.0.0-beta.6",
-    "jquery": "^3.5.0"
+    "jquery": "^3.5.0",
+    "minimist": ">=1.2.3"
   },
   "devDependencies": {
     "css-loader": "^3.4.2",

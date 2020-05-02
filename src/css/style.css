@@ -137,8 +137,7 @@ body {
     src: url(../font/quicksand.woff) format('woff');
 }
 
-.reload {
-    padding: 5px;
+.shuffle {
     position: absolute;
     top: 40%;
     right: 5%;
@@ -146,9 +145,21 @@ body {
 }
 
 .hint {
-    padding: 5px;
     position: absolute;
     top: 40%;
     left: 5%;
-    border-radius: 10px;
+    background: black;
+    border: #dab107 2px solid;
+    border-radius: 35px;
+    color: #b0b0b0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
 }
+
+.hint span{
+    transform: translate(0,120px);
+}
+
+
